@@ -26,6 +26,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  react-gamepad:
+    specifier: ^1.0.3
+    version: 1.0.3(react@18.2.0)
   react-gamepads:
     specifier: ^1.0.0
     version: 1.0.0(react@18.2.0)
@@ -10039,6 +10042,14 @@ packages:
 
   /react-error-overlay@6.0.11:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
+    dev: false
+
+  /react-gamepad@1.0.3(react@18.2.0):
+    resolution: {integrity: sha512-gMwITmfoHtCaMFpDaEshcjeibHAgynXD28NnS2pa+dG+stwNoN66YDVizN7GfyIrYiW5Ft1ubRxs6/2xW9sRhQ==}
+    peerDependencies:
+      react: '>=15.0.0'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-gamepads@1.0.0(react@18.2.0):

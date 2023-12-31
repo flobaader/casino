@@ -1,5 +1,6 @@
 import React, {useRef, useEffect, useState} from "react";
 import {useHotkeys} from 'react-hotkeys-hook';
+import Gamepad from "react-gamepad";
 
 
 // Redraw the wheel frame onto the given canvas.
@@ -188,19 +189,18 @@ const Wheel = ({prizes, onSpinComplete}) => {
         window.requestAnimationFrame(spinStep);
     };
 
-    useHotkeys('down', startSpin);
-
     return (
-        <div style={{position: "relative"}}>
-            <canvas ref={wheelCanvasRef} width="500" height="500"></canvas>
-            <canvas
-                ref={frameCanvasRef}
-                width="500"
-                height="500"
-                style={{position: "absolute", top: 0, left: 0}}
-            ></canvas>
-            <button onClick={startSpin}>Spin the Wheel!</button>
-        </div>
+        <Gamepad onDown={() => startSpin()}>
+            <div style={{position: "relative"}} onTouchStart={() => startSpin()}>
+                <canvas ref={wheelCanvasRef} width="500" height="500"></canvas>
+                <canvas
+                    ref={frameCanvasRef}
+                    width="500"
+                    height="500"
+                    style={{position: "absolute", top: 0, left: 0}}
+                ></canvas>
+            </div>
+        </Gamepad>
     );
 };
 

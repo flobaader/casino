@@ -7,8 +7,8 @@ const blackAndRedRuleset = [
     { name: "Gib 3 Schlucke 🖤", idea: "Gib 3 Schlucke weiter", freq: 3, bg: "#000000", text: "#fff" },
     { name: "Shot nehmen 🔴", idea: "Nimm einen Shot", freq: 2, bg: "#ff0000", text: "#222" },
     { name: "Shot geben 🖤", idea: "Gib einen Shot weiter", freq: 2, bg: "#000000", text: "#fff" },
-    { name: "Ganzes Glas 🥃", idea: "Jugge das ganze Glas", freq: 1, bg: "#8B0000", text: "#fff" },
-    { name: "Anderen jugge lassen 🎱", idea: "Lass jemand anderen das ganze Glas jugge", freq: 1, bg: "#000000", text: "#fff" },
+    { name: "LOOOSER 🥃", idea: "Exe dein ganze Glas", freq: 1, bg: "#8B0000", text: "#fff" },
+    { name: "JACKPOT 🎱", idea: "Lass jemand anderen das ganze Glas exen", freq: 1, bg: "#000000", text: "#fff" },
 ];
 
 export default blackAndRedRuleset;

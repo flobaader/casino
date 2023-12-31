@@ -10,6 +10,7 @@
     "eslint-config-react-app": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-gamepad": "^1.0.3",
     "react-gamepads": "^1.0.0",
     "react-hotkeys-hook": "^4.4.1",
     "react-scripts": "5.0.1",

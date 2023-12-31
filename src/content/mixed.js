@@ -1,13 +1,13 @@
 const mixed = [
     {
-        name: "$550 😂",
+        name: "CULTURE",
         idea: "Sprich 5 Minuten lang mit einem falschen Akzent",
         freq: 3,
         bg: "#CE93D8",
         text: "#222",
     },
     {
-        name: "$400 🚀",
+        name: "TODO",
         idea: "Mache einen Shot Wasser",
         freq: 3,
         bg: "#FFF59D",
@@ -15,7 +15,7 @@ const mixed = [
 
     },
     {
-        name: "$300 💃",
+        name: "DANCE",
         idea: "Tanze 30 Sekunden lang ohne Musik.",
         freq: 3,
         bg: "#F48FB1",
@@ -23,7 +23,7 @@ const mixed = [
 
     },
     {
-        name: "$900 🎩",
+        name: "MAGIC",
         idea: "Versuche einen Zaubertrick.",
         freq: 3,
         bg: "#ef9a9a",
@@ -31,7 +31,7 @@ const mixed = [
 
     },
     {
-        name: "$500 🍌",
+        name: "BANANA",
         idea: "Sage nach allem, was du sagst, 'Banane', bis zum nächsten Zug.",
         freq: 3,
         bg: "#FFCC80",
@@ -39,7 +39,7 @@ const mixed = [
 
     },
     {
-        name: "$300 🖌️",
+        name: "BEARD️",
         idea: "Zeichne mit einem abwaschbaren Marker einen Schnurrbart auf dein Gesicht.",
         freq: 3,
         bg: "#80CBC4",
@@ -47,7 +47,7 @@ const mixed = [
 
     },
     {
-        name: "$900 💬",
+        name: "LOVE",
         idea: "Sprich mit einem unbelebten Gegenstand, als wäre es dein Schwarm.",
         freq: 3,
         bg: "#FFCC80",
@@ -55,15 +55,15 @@ const mixed = [
 
     },
     {
-        name: "BANKRUPT ⚓",
-        idea: "Einbeiniger Pirat: Hüpfe auf einem Bein und rufe Piratenphrasen.",
+        name: "PIRATE",
+        idea: "Einbeiniger Pirat: Hüpfe auf einem Bein und schreie Piratensachen.",
         freq: 3,
         bg: "#333",
         text: "#eee",
 
     },
     {
-        name: "$600 🚶",
+        name: "FREEZE",
         idea: "Statue einfrieren: Friere wie eine Statue ein, wenn jemand 'Statue' sagt.",
         freq: 3,
         bg: "#CE93D8",
@@ -71,7 +71,7 @@ const mixed = [
 
     },
     {
-        name: "$400 🖐",
+        name: "STORY",
         idea: "Erzähle eine Geschichte in nur 5 Worten.",
         freq: 3,
         bg: "#FFF59D",
@@ -87,7 +87,7 @@ const mixed = [
 
     },
     {
-        name: "$800 🥳",
+        name: "AGAIN",
         idea: "Trinke einen Schluck und drehe nochmal.",
         freq: 3,
         bg: "#ef9a9a",
@@ -95,7 +95,7 @@ const mixed = [
 
     },
     {
-        name: "$350 🍻",
+        name: "GIVE3",
         idea: "Gebe 3 Schlucke aus.",
         freq: 3,
         bg: "#CE93D8",
@@ -103,7 +103,7 @@ const mixed = [
 
     },
     {
-        name: "$450 🎉",
+        name: "GIVE2",
         idea: "Gebe 2 Schlucke aus.",
         freq: 3,
         bg: "#F48FB1",
@@ -111,7 +111,7 @@ const mixed = [
 
     },
     {
-        name: "$700 🙋‍♀️",
+        name: "GIRLS",
         idea: "Mädchen trinken.",
         freq: 3,
         bg: "#80CBC4",
@@ -119,7 +119,7 @@ const mixed = [
 
     },
     {
-        name: "$300 🙋‍♂️",
+        name: "BOYS",
         idea: "Jungs trinken.",
         freq: 3,
         bg: "#FFCC80",
@@ -127,7 +127,7 @@ const mixed = [
 
     },
     {
-        name: "$600 💋",
+        name: "KISS L",
         idea: "Küsse die Person rechts von dir.",
         freq: 3,
         bg: "#CE93D8",
@@ -135,7 +135,7 @@ const mixed = [
 
     },
     {
-        name: "$2500 💋",
+        name: "KISS R",
         idea: "Küsse die Person links von dir.",
         freq: 3,
         bg: "#81D4FA",
@@ -143,7 +143,7 @@ const mixed = [
 
     },
     {
-        name: "$300 👋",
+        name: "SLAP",
         idea: "Klaps auf den Hintern links.",
         freq: 3,
         bg: "#FFF59D",
@@ -151,7 +151,7 @@ const mixed = [
 
     },
     {
-        name: "BANKRUPT 🤐",
+        name: "QUESTIONMASTER",
         idea: "Frage-Meister, niemand sollte deine Fragen beantworten.",
         freq: 1,
         bg: "#333",
@@ -159,7 +159,7 @@ const mixed = [
         fontMod: 2,
     },
     {
-        name: "$10000 🚪",
+        name: "DRAMA",
         idea: "Mache einen dramatischen Abgang und Eintritt.",
         freq: 1,
         bg: "#FFD54F",
