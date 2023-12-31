@@ -165,7 +165,7 @@ const Wheel = ({prizes, onSpinComplete}) => {
     }, [angle, prizes]);
 
     const startSpin = () => {
-        const audio = new Audio('/schauen-was-wird.mp3');
+        const audio = new Audio('/okay-lets-go.mp3');
         audio.play();
         let currentAngle = angle;
         let spinDuration = 3000; // Duration of the spin in milliseconds

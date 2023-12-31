@@ -8,7 +8,7 @@ const mixed = [
     },
     {
         name: "TODO",
-        idea: "Mache einen Shot Wasser",
+        idea: "Trinke einen Shot",
         freq: 3,
         bg: "#FFF59D",
         text: "#222",

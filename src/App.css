@@ -9,3 +9,26 @@
   height: 100vh;
   z-index: 2;
 }
+
+
+@keyframes shiny-border {
+  0% {
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.8), 0 0 20px 8px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 15px 6px rgba(255, 255, 255, 0.6), 0 0 25px 10px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.8), 0 0 20px 8px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.fancy-border {
+  animation: shiny-border 2s infinite ease-in-out;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background: #282c34;
+  color: white;
+}

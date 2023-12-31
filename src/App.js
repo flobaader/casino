@@ -6,6 +6,7 @@ import mixed from "./content/mixed.js";
 import alk from "./content/alk";
 import {useHotkeys} from "react-hotkeys-hook";
 import Gamepad from 'react-gamepad'
+import ConfettiExplosion from "react-confetti-explosion";
 
 const {Title, Paragraph, Text, Link} = Typography;
 const {Header, Content, Footer} = Layout;
@@ -15,6 +16,8 @@ function App() {
     const [prizes, setPrizes] = useState(mixed)
     const [mode, setMode] = useState("Mixed")
     const [connected, setConnected] = useState(false)
+    const [isExploding, setIsExploding] = React.useState(false);
+
 
     const setMixed = () => {
         setWinnerIndex(null);
@@ -34,6 +37,7 @@ function App() {
         setWinnerIndex(index);
         const audio = new Audio('/finish.mp3');
         audio.play();
+        setIsExploding(true)
     };
 
     return (
@@ -51,12 +55,13 @@ function App() {
                         <Title>Caras Casino - {mode}</Title>
                     </Header>
 
-                    <Content>
+                    <Content style={{backgroundImage: "url(background1.jpg)", backgroundSize: "cover"}}>
                         <Flex align="center">
                             <Wheel prizes={prizes} onSpinComplete={onSpinComplete}/>
                             <div>
                                 {winnerIndex !== null && (
-                                    <Card>
+                                    <Card className="fancy-border">
+                                        {isExploding && <ConfettiExplosion force={0.7} onComplete={() => setIsExploding(false)}/>}
                                         <Title>{prizes[winnerIndex].name}</Title>
                                         <Title level={2}>{prizes[winnerIndex].idea}</Title>
                                     </Card>
