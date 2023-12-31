@@ -192,11 +192,11 @@ const Wheel = ({prizes, onSpinComplete}) => {
     return (
         <Gamepad onDown={() => startSpin()}>
             <div style={{position: "relative"}} onTouchStart={() => startSpin()}>
-                <canvas ref={wheelCanvasRef} width="500" height="500"></canvas>
+                <canvas ref={wheelCanvasRef} width="600" height="600"></canvas>
                 <canvas
                     ref={frameCanvasRef}
-                    width="500"
-                    height="500"
+                    width="600"
+                    height="600"
                     style={{position: "absolute", top: 0, left: 0}}
                 ></canvas>
             </div>

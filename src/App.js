@@ -46,7 +46,7 @@ function App() {
                 onX={() => setAlki()}
                 onY={() => setMixed()}
             >
-                <Layout>
+                <Layout style={{height: "100vh"}}>
                     <Header style={{display: 'flex', alignItems: 'center'}}>
                         <Title>Caras Casino - {mode}</Title>
                     </Header>
