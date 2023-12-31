@@ -165,6 +165,7 @@ const Wheel = ({prizes, onSpinComplete}) => {
     }, [angle, prizes]);
 
     const startSpin = () => {
+        onSpinComplete(null)
         const audio = new Audio('/okay-lets-go.mp3');
         audio.play();
         let currentAngle = angle;
