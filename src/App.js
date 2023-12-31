@@ -61,7 +61,8 @@ function App() {
                             <div>
                                 {winnerIndex !== null && (
                                     <Card className="fancy-border">
-                                        {isExploding && <ConfettiExplosion force={0.7} onComplete={() => setIsExploding(false)}/>}
+                                        {isExploding &&
+                                            <ConfettiExplosion force={0.7} onComplete={() => setIsExploding(false)}/>}
                                         <Title>{prizes[winnerIndex].name}</Title>
                                         <Title level={2}>{prizes[winnerIndex].idea}</Title>
                                     </Card>
